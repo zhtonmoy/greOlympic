@@ -12,8 +12,8 @@
 <?php
  
  define('DB_NAME','mdb_bm340');
- define('DB_USER','bm340');
- define('DB_PASSWORD','reardp9F');
+ define('DB_USER','');
+ define('DB_PASSWORD','');
  define('DB_HOST','mysql.cms.gre.ac.uk');
  $link =mysql_connect(DB_HOST,DB_USER,DB_PASSWORD);
  if(!$link){
